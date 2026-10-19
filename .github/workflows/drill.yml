@@ -1,0 +1,11 @@
+name: CI Review Drill
+
+on:
+  workflow_dispatch:
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sleep for about five minutes
+        run: sleep 300
