@@ -7,5 +7,7 @@ jobs:
   drill:
     runs-on: ubuntu-latest
     steps:
-      - name: Sleep for about five minutes
-        run: sleep 300
+      - name: Drill start
+        run: echo DRILL-START
+      - name: Drill end
+        run: echo DRILL-END
